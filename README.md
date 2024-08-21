@@ -1,4 +1,4 @@
-# SSH-public-private-keys-authentication-for-clusters-database-and-standby-or-remote-servers
+# SSH-authentication-for-clusters-database-and-standby-servers
 This Script can do the automate setup of ssh-public/private-key authentication automatically for password-less between the clusters database servers and standby or remote servers for root and any users 
 
 ## Why Should You Set Up SSH Keys?
@@ -21,8 +21,8 @@ Script End: Check SSH connectivity
 ## Usage
 
 ```bash
-git clone SSH-public-private-keys-authentication-for-clusters-database-and-standby-or-remote-servers 
-cd SSH-public-private-keys-authentication-for-clusters-database-and-standby-or-remote-servers 
+git clone SSH-authentication-for-clusters-database-and-standby-servers 
+cd SSH-authentication-for-clusters-database-and-standby-servers 
 chmod +x ssh_authentication_cluster.sh
 ./ssh_authentication_cluster.sh 
 ```
